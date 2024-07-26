@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestGame" tests="57" skipped="0" failures="0" errors="0" timestamp="2023-06-22T10:18:30" hostname="octi17-HP-Pavilion-Gaming-Laptop-15-ec0xxx" time="9.71">
+  <properties/>
+  <testcase name="testCurrentRollsRollDices()" classname="TestGame" time="0.303"/>
+  <testcase name="testNotDiceKeepDices()" classname="TestGame" time="0.092"/>
+  <testcase name="StartGameWith3Players()" classname="TestGame" time="0.071"/>
+  <testcase name="testSameSizeChoiceDices()" classname="TestGame" time="0.123"/>
+  <testcase name="TestStateRollDice()" classname="TestGame" time="0.037"/>
+  <testcase name="testReturnFalseTakePickomino()" classname="TestGame" time="0.062"/>
+  <testcase name="testKeyErrorKeepDices()" classname="TestGame" time="0.039"/>
+  <testcase name="testLooseRoundWithPickominos()" classname="TestGame" time="0.384"/>
+  <testcase name="TestStateKeepDice()" classname="TestGame" time="0.053"/>
+  <testcase name="testModeDebugFalseChoiceDices()" classname="TestGame" time="0.148"/>
+  <testcase name="testUseFinalScoreInGame()" classname="TestGame" time="0.043"/>
+  <testcase name="testValidGameState()" classname="TestGame" time="0.044"/>
+  <testcase name="testStealPickominosNotPossible()" classname="TestGame" time="0.31"/>
+  <testcase name="testTrueNewGame()" classname="TestGame" time="0.04"/>
+  <testcase name="testBadPickomino2TakePickomino()" classname="TestGame" time="0.072"/>
+  <testcase name="testStealPickominos()" classname="TestGame" time="0.363"/>
+  <testcase name="testKeyErrorTakePickomino()" classname="TestGame" time="0.029"/>
+  <testcase name="testKeyErrorChoiceDices()" classname="TestGame" time="0.033"/>
+  <testcase name="testReturnTrueTakePickomino()" classname="TestGame" time="0.07"/>
+  <testcase name="TestStateGameFineshed()" classname="TestGame" time="1.519"/>
+  <testcase name="TestNotHaveWorm()" classname="TestGame" time="0.094"/>
+  <testcase name="testBadPickomino1TakePickomino()" classname="TestGame" time="0.079"/>
+  <testcase name="testIdErrorTakePickomino()" classname="TestGame" time="0.033"/>
+  <testcase name="testValidParametreKeepDices()" classname="TestGame" time="0.074"/>
+  <testcase name="testIdErrorRollDices()" classname="TestGame" time="0.043"/>
+  <testcase name="TestStateRollDiceOrTakePickomino()" classname="TestGame" time="0.071"/>
+  <testcase name="testNotSameValueKeepDices()" classname="TestGame" time="0.07"/>
+  <testcase name="TestStateTakePickomino()" classname="TestGame" time="0.141"/>
+  <testcase name="testKeyErrorFinalScore()" classname="TestGame" time="0.029"/>
+  <testcase name="testStealPickomino()" classname="TestGame" time="0.169"/>
+  <testcase name="testCurrentRollsChoiceDices()" classname="TestGame" time="0.05"/>
+  <testcase name="StartGameWith4Players()" classname="TestGame" time="0.042"/>
+  <testcase name="testStockPickominoTakePickomino()" classname="TestGame" time="0.09"/>
+  <testcase name="testStatutFalseChoiceDices()" classname="TestGame" time="0.046"/>
+  <testcase name="testIdErrorGameState()" classname="TestGame" time="0.026"/>
+  <testcase name="testStatutFalseRollDices()" classname="TestGame" time="0.052"/>
+  <testcase name="testLooseRound1()" classname="TestGame" time="0.125"/>
+  <testcase name="TestTakePickominoSmaller()" classname="TestGame" time="0.186"/>
+  <testcase name="testUseFinalScoreAtGameOver()" classname="TestGame" time="1.374"/>
+  <testcase name="testKeyErrorRollDices()" classname="TestGame" time="0.031"/>
+  <testcase name="StartGameWith2Players()" classname="TestGame" time="0.052"/>
+  <testcase name="testValidParametreTakePickomino()" classname="TestGame" time="0.071"/>
+  <testcase name="testTakePickomino()" classname="TestGame" time="0.09"/>
+  <testcase name="testFalseNewGame()" classname="TestGame" time="0.019"/>
+  <testcase name="testKeyErrorGameState()" classname="TestGame" time="0.028"/>
+  <testcase name="testLooseRoundWithPickomino()" classname="TestGame" time="0.479"/>
+  <testcase name="TestNotHavePickominoSmaller()" classname="TestGame" time="0.376"/>
+  <testcase name="testIdErrorChoiceDices()" classname="TestGame" time="0.044"/>
+  <testcase name="testIdErrorKeepDices()" classname="TestGame" time="0.034"/>
+  <testcase name="testLoosePoundWithGreaterPickomino()" classname="TestGame" time="0.315"/>
+  <testcase name="testValidParametreRollDices()" classname="TestGame" time="0.032"/>
+  <testcase name="testIdErrorFinalScore()" classname="TestGame" time="0.027"/>
+  <testcase name="testValidParametreChoiceDices()" classname="TestGame" time="0.03"/>
+  <testcase name="testStatutFalseTakePickomino()" classname="TestGame" time="0.03"/>
+  <testcase name="testCurrentKeptKeepDices()" classname="TestGame" time="0.056"/>
+  <testcase name="testStatutFalseKeepDices()" classname="TestGame" time="0.032"/>
+  <testcase name="TestPickonimoInaccesible()" classname="TestGame" time="0.273"/>
+  <system-out><![CDATA[** 200 OK **  ** 201 Created **  936,230
+** 200 OK **  [d5, d4, d2, worm, d1, d4, d3, d1]
+** 200 OK **  936 : currentState=[ status=KEEP_DICE, player=0, rolls=[d5, d4, d2, worm, d1, d4, d3, d1], keptDices=[] ], pickominos=[21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36], stackTops=[0, 0]
+** 200 OK **  ** 201 Created **  937,274
+[* 200 OK *]
+[d5, worm, worm, d5, worm, worm, d2, d1] / [d5, worm, worm, d5, worm, worm, d2, d1]
+** 204 No Content **  ** 200 OK **  ** 201 Created **  938,149
+** 201 Created **  939,287
+** 200 OK **  939 : currentState=[ status=ROLL_DICE, player=0, rolls=[], keptDices=[] ], pickominos=[21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36], stackTops=[0, 0, 0]
+** 200 OK **  ** 201 Created **  940,165
+[* 200 OK *]
+[d5, worm, worm, d5, worm, worm, d2, d1] / [d5, worm, worm, d5, worm, worm, d2, d1]
+** 200 OK **  true
+[* 200 OK *]
+[d5, worm, worm, d5, worm, worm, d2, d1] / [d5, worm, worm, d5]
+** 200 OK **  940 : currentState=[ status=KEEP_DICE, player=0, rolls=[d5, worm, worm, d5], keptDices=[worm, worm, worm, worm] ], pickominos=[21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36], stackTops=[0, 0]
+** 200 OK **  ** 201 Created **  941,292
+** 200 OK **  941 : currentState=[ status=ROLL_DICE, player=0, rolls=[], keptDices=[] ], pickominos=[21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36], stackTops=[0, 0]
+** 200 OK **  ** 201 Created **  942,118
+[* 200 OK *]
+[d5, worm, worm, worm, worm, worm, worm, d1] / [d5, worm, worm, worm, worm, worm, worm, d1]
+** 200 OK **  true
+** 200 OK **  ** 201 Created **  943,106
+** 401 Unauthorized **  ** 200 OK **  ** 201 Created **  944,226
+[* 200 OK *]
+[d5, worm, worm, d5, worm, worm, worm, d1] / [d5, worm, worm, d5, worm, worm, worm, d1]
+** 200 OK **  true
+** 200 OK **  true
+[* 200 OK *]
+[d1, d1, d1, d1, d1, d2, d5, d2] / [d1, d1, d1, d1, d1, d2, d5, d2]
+** 200 OK **  true
+[* 200 OK *]
+[d3, d3, d4] / [d3, d3, d4]
+** 200 OK **  true
+[* 200 OK *]
+[d3] / [d3]
+[* 200 OK *]
+[d1, d1, d1, d1, d1, d2, d5, d2] / [d1, d1, d1, d1, d1, d2, d5, d2]
+** 200 OK **  true
+[* 200 OK *]
+[d3, d3, d4] / [d3, d3, d4]
+** 200 OK **  true
+[* 200 OK *]
+[d3] / [d3]
+** 200 OK **  944 : currentState=[ status=ROLL_DICE, player=1, rolls=[], keptDices=[] ], pickominos=[21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34], stackTops=[0, 0]
+** 200 OK **  944 : currentState=[ status=ROLL_DICE, player=1, rolls=[], keptDices=[] ], pickominos=[21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34], stackTops=[0, 0]
+** 200 OK **  ** 201 Created **  945,149
+[* 200 OK *]
+[d5, worm, worm, d5, worm, worm, d2, d1] / [d5, worm, worm, d5, worm, worm, d2, d1]
+** 200 OK **  945 : currentState=[ status=KEEP_DICE, player=0, rolls=[d5, worm, worm, d5, worm, worm, d2, d1], keptDices=[] ], pickominos=[21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36], stackTops=[0, 0]
+** 200 OK **  ** 201 Created **  946,127
+[d3, d4, d4, d2, d1, d2, d5, d5]
+** 200 OK **  ** 201 Created **  948,241
+** 200 OK **  948 : currentState=[ status=ROLL_DICE, player=0, rolls=[], keptDices=[] ], pickominos=[21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36], stackTops=[0, 0]
+** 200 OK **  ** 201 Created **  949,189
+** 200 OK **  949 : currentState=[ status=ROLL_DICE, player=0, rolls=[], keptDices=[] ], pickominos=[21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36], stackTops=[0, 0]
+** 200 OK **  ** 201 Created **  950,209
+[* 200 OK *]
+[d5, worm, worm, d5, worm, worm, worm, d1] / [d5, worm, worm, d5, worm, worm, worm, d1]
+** 200 OK **  true
+** 200 OK **  true
+[* 200 OK *]
+[d5, worm, worm, d5, worm, worm, worm, d1] / [d5, worm, worm, d5, worm, worm, worm, d1]
+** 200 OK **  true
+[* 200 OK *]
+[d4, d3, d3] / [d4, d3, d3]
+** 200 OK **  true
+** 200 OK **  true
+[* 200 OK *]
+[d5, worm, worm, worm, worm, worm, worm, d1] / [d5, worm, worm, worm, worm, worm, worm, d1]
+** 200 OK **  true
+** 200 OK **  true
+[* 200 OK *]
+[d5, d1, worm, d5, d5, d5, worm, d1] / [d5, d1, worm, d5, d5, d5, worm, d1]
+** 200 OK **  true
+[* 200 OK *]
+[d5, d5, worm, d2] / [d5, d5, worm, d2]
+** 200 OK **  true
+** 409 Conflict **  ** 200 OK **  ** 201 Created **  951,154
+** 201 Created **  952,182
+** 200 OK **  ** 201 Created **  953,213
+[* 200 OK *]
+[d5, worm, worm, worm, worm, worm, worm, d1] / [d5, worm, worm, worm, worm, worm, worm, d1]
+** 200 OK **  true
+** 409 Conflict **  ** 200 OK **  ** 201 Created **  954,263
+[* 200 OK *]
+[d5, worm, worm, d5, worm, worm, worm, d1] / [d5, worm, worm, d5, worm, worm, worm, d1]
+** 200 OK **  true
+** 200 OK **  true
+[* 200 OK *]
+[d5, worm, worm, d5, worm, worm, worm, d1] / [d5, worm, worm, d5, worm, worm, worm, d1]
+** 200 OK **  true
+[* 200 OK *]
+[d4, d3, d3] / [d4, d3, d3]
+** 200 OK **  true
+** 200 OK **  true
+[* 200 OK *]
+[d5, worm, worm, worm, worm, worm, worm, d1] / [d5, worm, worm, worm, worm, worm, worm, d1]
+** 200 OK **  true
+** 200 OK **  true
+[* 200 OK *]
+[d5, d5, worm, d5, d5, d5, worm, d1] / [d5, d5, worm, d5, d5, d5, worm, d1]
+** 200 OK **  true
+[* 200 OK *]
+[d5, d5, worm] / [d5, d5, worm]
+** 200 OK **  true
+** 200 OK **  true
+** 200 OK **  954 : currentState=[ status=ROLL_DICE, player=0, rolls=[], keptDices=[] ], pickominos=[21, 22, 23, 24, 26, 27, 28, 29, 32, 33, 34, 35, 36], stackTops=[25, 30]
+** 200 OK **  954 : currentState=[ status=ROLL_DICE, player=0, rolls=[], keptDices=[] ], pickominos=[21, 22, 23, 24, 26, 27, 28, 29, 32, 33, 34, 35, 36], stackTops=[25, 30]
+** 200 OK **  954 : currentState=[ status=ROLL_DICE, player=0, rolls=[], keptDices=[] ], pickominos=[21, 22, 23, 24, 26, 27, 28, 29, 32, 33, 34, 35, 36], stackTops=[25, 30]
+** 200 OK **  ** 201 Created **  955,188
+** 401 Unauthorized **  ** 200 OK **  ** 201 Created **  956,195
+[* 401 Unauthorized *]
+** 200 OK **  ** 201 Created **  957,156
+[* 200 OK *]
+[d5, worm, worm, worm, worm, worm, worm, d1] / [d5, worm, worm, worm, worm, worm, worm, d1]
+** 200 OK **  true
+** 200 OK **  true
+** 200 OK **  ** 201 Created **  958,217
+[* 200 OK *]
+[d1, d1, d1, d1, d1, d2, d5, d2] / [d1, d1, d1, d1, d1, d2, d5, d2]
+** 200 OK **  true
+[* 200 OK *]
+[d3, d3, d4] / [d3, d3, d4]
+** 200 OK **  true
+[* 200 OK *]
+[d3] / [d3]
+[* 200 OK *]
+[d1, d1, d1, d1, d1, d2, d5, d2] / [d1, d1, d1, d1, d1, d2, d5, d2]
+** 200 OK **  true
+[* 200 OK *]
+[d3, d3, d4] / [d3, d3, d4]
+** 200 OK **  true
+[* 200 OK *]
+[d3] / [d3]
+[* 200 OK *]
+[d1, d1, d1, d1, d1, d2, d5, d2] / [d1, d1, d1, d1, d1, d2, d5, d2]
+** 200 OK **  true
+[* 200 OK *]
+[d3, d3, d4] / [d3, d3, d4]
+** 200 OK **  true
+[* 200 OK *]
+[d3] / [d3]
+[* 200 OK *]
+[d1, d1, d1, d1, d1, d2, d5, d2] / [d1, d1, d1, d1, d1, d2, d5, d2]
+** 200 OK **  true
+[* 200 OK *]
+[d3, d3, d4] / [d3, d3, d4]
+** 200 OK **  true
+[* 200 OK *]
+[d3] / [d3]
+[* 200 OK *]
+[d1, d1, d1, d1, d1, d2, d5, d2] / [d1, d1, d1, d1, d1, d2, d5, d2]
+** 200 OK **  true
+[* 200 OK *]
+[d3, d3, d4] / [d3, d3, d4]
+** 200 OK **  true
+[* 200 OK *]
+[d3] / [d3]
+[* 200 OK *]
+[d1, d1, d1, d1, d1, d2, d5, d2] / [d1, d1, d1, d1, d1, d2, d5, d2]
+** 200 OK **  true
+[* 200 OK *]
+[d3, d3, d4] / [d3, d3, d4]
+** 200 OK **  true
+[* 200 OK *]
+[d3] / [d3]
+[* 200 OK *]
+[d1, d1, d1, d1, d1, d2, d5, d2] / [d1, d1, d1, d1, d1, d2, d5, d2]
+** 200 OK **  true
+[* 200 OK *]
+[d3, d3, d4] / [d3, d3, d4]
+** 200 OK **  true
+[* 200 OK *]
+[d3] / [d3]
+[* 200 OK *]
+[d1, d1, d1, d1, d1, d2, d5, d2] / [d1, d1, d1, d1, d1, d2, d5, d2]
+** 200 OK **  true
+[* 200 OK *]
+[d3, d3, d4] / [d3, d3, d4]
+** 200 OK **  true
+[* 200 OK *]
+[d3] / [d3]
+[* 200 OK *]
+[d1, d1, d1, d1, d1, d2, d5, d2] / [d1, d1, d1, d1, d1, d2, d5, d2]
+** 200 OK **  true
+[* 200 OK *]
+[d3, d3, d4] / [d3, d3, d4]
+** 200 OK **  true
+[* 200 OK *]
+[d3] / [d3]
+[* 200 OK *]
+[d1, d1, d1, d1, d1, d2, d5, d2] / [d1, d1, d1, d1, d1, d2, d5, d2]
+** 200 OK **  true
+[* 200 OK *]
+[d3, d3, d4] / [d3, d3, d4]
+** 200 OK **  true
+[* 200 OK *]
+[d3] / [d3]
+[* 200 OK *]
+[d1, d1, d1, d1, d1, d2, d5, d2] / [d1, d1, d1, d1, d1, d2, d5, d2]
+** 200 OK **  true
+[* 200 OK *]
+[d3, d3, d4] / [d3, d3, d4]
+** 200 OK **  true
+[* 200 OK *]
+[d3] / [d3]
+[* 200 OK *]
+[d1, d1, d1, d1, d1, d2, d5, d2] / [d1, d1, d1, d1, d1, d2, d5, d2]
+** 200 OK **  true
+[* 200 OK *]
+[d3, d3, d4] / [d3, d3, d4]
+** 200 OK **  true
+[* 200 OK *]
+[d3] / [d3]
+[* 200 OK *]
+[d1, d1, d1, d1, d1, d2, d5, d2] / [d1, d1, d1, d1, d1, d2, d5, d2]
+** 200 OK **  true
+[* 200 OK *]
+[d3, d3, d4] / [d3, d3, d4]
+** 200 OK **  true
+[* 200 OK *]
+[d3] / [d3]
+[* 200 OK *]
+[d1, d1, d1, d1, d1, d2, d5, d2] / [d1, d1, d1, d1, d1, d2, d5, d2]
+** 200 OK **  true
+[* 200 OK *]
+[d3, d3, d4] / [d3, d3, d4]
+** 200 OK **  true
+[* 200 OK *]
+[d3] / [d3]
+[* 200 OK *]
+[d5, worm, worm, d5, worm, worm, d2, d1] / [d5, worm, worm, d5, worm, worm, d2, d1]
+** 200 OK **  true
+[* 200 OK *]
+[d2, worm, worm, d5] / [d2, worm, worm, d5]
+** 200 OK **  true
+** 200 OK **  true
+[* 200 OK *]
+[d5, worm, worm, d5, worm, worm, d2, d1] / [d5, worm, worm, d5, worm, worm, d2, d1]
+** 200 OK **  true
+[* 200 OK *]
+[d1, worm, worm, d5] / [d1, worm, worm, d5]
+** 200 OK **  true
+** 200 OK **  true
+** 200 OK **  958 : currentState=[ status=GAME_FINISHED, player=0, rolls=[], keptDices=[] ], pickominos=[], stackTops=[22, 21]
+** 200 OK **  ** 201 Created **  959,244
+[* 200 OK *]
+[d5, d5, d5, d5, d5, d5, d3, d3] / [d5, d5, d5, d5, d5, d5, d3, d3]
+** 200 OK **  true
+[* 200 OK *]
+[d3, d3] / [d3, d3]
+** 200 OK **  true
+** 405 Method Not Allowed **  ** 200 OK **  ** 201 Created **  960,108
+[* 200 OK *]
+[d5, worm, worm, worm, worm, worm, worm, d1] / [d5, worm, worm, worm, worm, worm, worm, d1]
+** 200 OK **  true
+** 200 OK **  960 : currentState=[ status=ROLL_DICE_OR_TAKE_PICKOMINO, player=0, rolls=[], keptDices=[worm, worm, worm, worm, worm, worm] ], pickominos=[21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36], stackTops=[0, 0]
+** 200 OK **  960 : currentState=[ status=ROLL_DICE_OR_TAKE_PICKOMINO, player=0, rolls=[], keptDices=[worm, worm, worm, worm, worm, worm] ], pickominos=[21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36], stackTops=[0, 0]
+** 200 OK **  ** 201 Created **  961,119
+** 404 Not Found **  ** 200 OK **  ** 201 Created **  962,164
+[* 200 OK *]
+[d5, worm, worm, d5, worm, worm, d2, d1] / [d5, worm, worm, d5, worm, worm, d2, d1]
+** 200 OK **  true
+** 200 OK **  ** 201 Created **  963,130
+** 404 Not Found **  ** 200 OK **  ** 201 Created **  964,164
+[* 200 OK *]
+[d5, worm, worm, worm, worm, worm, d2, d1] / [d5, worm, worm, worm, worm, worm, d2, d1]
+** 200 OK **  true
+** 200 OK **  964 : currentState=[ status=ROLL_DICE_OR_TAKE_PICKOMINO, player=0, rolls=[], keptDices=[worm, worm, worm, worm, worm] ], pickominos=[21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36], stackTops=[0, 0]
+** 200 OK **  ** 201 Created **  965,204
+[* 200 OK *]
+[d5, worm, worm, d5, worm, worm, d2, d1] / [d5, worm, worm, d5, worm, worm, d2, d1]
+** 200 OK **  true
+[* 200 OK *]
+[d5, worm, worm, d5] / [d5, worm, worm, d5]
+** 409 Conflict **  ** 200 OK **  ** 201 Created **  966,279
+[* 200 OK *]
+[d5, worm, worm, d5, worm, worm, d2, d1] / [d5, worm, worm, d5, worm, worm, d2, d1]
+** 200 OK **  true
+[* 200 OK *]
+[d2, d2, worm, d5] / [d2, d2, worm, d5]
+** 200 OK **  true
+[* 200 OK *]
+[d3, d3] / [d3, d3]
+** 200 OK **  true
+** 200 OK **  966 : currentState=[ status=TAKE_PICKOMINO, player=0, rolls=[], keptDices=[worm, worm, worm, worm, d2, d2, d3, d3] ], pickominos=[21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36], stackTops=[0, 0]
+** 200 OK **  ** 201 Created **  967,130
+** 401 Unauthorized **  ** 200 OK **  ** 201 Created **  968,119
+[* 200 OK *]
+[d5, worm, worm, d5, worm, worm, worm, d1] / [d5, worm, worm, d5, worm, worm, worm, d1]
+** 200 OK **  true
+** 200 OK **  true
+[* 200 OK *]
+[d5, worm, worm, d5, worm, worm, worm, d1] / [d5, worm, worm, d5, worm, worm, worm, d1]
+** 200 OK **  true
+** 200 OK **  true
+** 200 OK **  968 : currentState=[ status=ROLL_DICE, player=0, rolls=[], keptDices=[] ], pickominos=[21, 22, 23, 24, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36], stackTops=[0, 25]
+** 200 OK **  968 : currentState=[ status=ROLL_DICE, player=0, rolls=[], keptDices=[] ], pickominos=[21, 22, 23, 24, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36], stackTops=[0, 25]
+** 200 OK **  968 : currentState=[ status=ROLL_DICE, player=0, rolls=[], keptDices=[] ], pickominos=[21, 22, 23, 24, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36], stackTops=[0, 25]
+** 200 OK **  ** 201 Created **  969,211
+[* 200 OK *]
+[d5, worm, worm, d5, worm, worm, d2, d1] / [d5, worm, worm, d5, worm, worm, d2, d1]
+** 200 OK **  969 : currentState=[ status=KEEP_DICE, player=0, rolls=[d5, worm, worm, d5, worm, worm, d2, d1], keptDices=[] ], pickominos=[21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36], stackTops=[0, 0]
+** 200 OK **  ** 201 Created **  970,258
+** 201 Created **  971,188
+** 200 OK **  971 : currentState=[ status=ROLL_DICE, player=0, rolls=[], keptDices=[] ], pickominos=[21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36], stackTops=[0, 0, 0, 0]
+** 200 OK **  ** 201 Created **  972,225
+[* 200 OK *]
+[d5, worm, worm, worm, worm, worm, worm, d1] / [d5, worm, worm, worm, worm, worm, worm, d1]
+** 200 OK **  true
+** 200 OK **  true
+** 200 OK **  972 : currentState=[ status=ROLL_DICE, player=1, rolls=[], keptDices=[] ], pickominos=[21, 22, 23, 24, 25, 26, 27, 28, 29, 31, 32, 33, 34, 35, 36], stackTops=[30, 0]
+** 200 OK **  972 : currentState=[ status=ROLL_DICE, player=1, rolls=[], keptDices=[] ], pickominos=[21, 22, 23, 24, 25, 26, 27, 28, 29, 31, 32, 33, 34, 35, 36], stackTops=[30, 0]
+** 200 OK **  ** 201 Created **  973,258
+[* 200 OK *]
+[d5, worm, worm, d5, worm, worm, d2, d1] / [d5, worm, worm, d5, worm, worm, d2, d1]
+[* 405 Method Not Allowed *]
+** 200 OK **  ** 201 Created **  974,226
+** 404 Not Found **  ** 200 OK **  ** 201 Created **  975,167
+** 200 OK **  [worm, d3, d2, d2, d2, d2, worm, worm]
+** 405 Method Not Allowed **  ** 200 OK **  ** 201 Created **  976,175
+[* 200 OK *]
+[d1, d1, d1, d1, d1, d2, d5, d2] / [d1, d1, d1, d1, d1, d2, d5, d2]
+** 200 OK **  true
+[* 200 OK *]
+[d3, d3, d4] / [d3, d3, d4]
+** 200 OK **  true
+[* 200 OK *]
+[d3] / [d3]
+** 200 OK **  976 : currentState=[ status=ROLL_DICE, player=1, rolls=[], keptDices=[] ], pickominos=[21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35], stackTops=[0, 0]
+** 200 OK **  ** 201 Created **  977,172
+[* 200 OK *]
+[worm, worm, worm, worm, worm, worm, worm, d1] / [worm, worm, worm, worm, worm, worm, worm, d1]
+** 200 OK **  true
+[* 200 OK *]
+[d1] / [d1]
+** 200 OK **  true
+** 200 OK **  true
+[* 200 OK *]
+[worm, worm, worm, worm, worm, worm, worm, d1] / [worm, worm, worm, worm, worm, worm, worm, d1]
+** 200 OK **  true
+[* 200 OK *]
+[d1] / [d1]
+** 200 OK **  true
+** 200 OK **  true
+** 200 OK **  977 : currentState=[ status=ROLL_DICE, player=0, rolls=[], keptDices=[] ], pickominos=[21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34], stackTops=[36, 35]
+** 200 OK **  ** 201 Created **  978,103
+[* 200 OK *]
+[d1, d1, d1, d1, d1, d2, d5, d2] / [d1, d1, d1, d1, d1, d2, d5, d2]
+** 200 OK **  true
+[* 200 OK *]
+[d3, d3, d4] / [d3, d3, d4]
+** 200 OK **  true
+[* 200 OK *]
+[d3] / [d3]
+[* 200 OK *]
+[d1, d1, d1, d1, d1, d2, d5, d2] / [d1, d1, d1, d1, d1, d2, d5, d2]
+** 200 OK **  true
+[* 200 OK *]
+[d3, d3, d4] / [d3, d3, d4]
+** 200 OK **  true
+[* 200 OK *]
+[d3] / [d3]
+[* 200 OK *]
+[d1, d1, d1, d1, d1, d2, d5, d2] / [d1, d1, d1, d1, d1, d2, d5, d2]
+** 200 OK **  true
+[* 200 OK *]
+[d3, d3, d4] / [d3, d3, d4]
+** 200 OK **  true
+[* 200 OK *]
+[d3] / [d3]
+[* 200 OK *]
+[d1, d1, d1, d1, d1, d2, d5, d2] / [d1, d1, d1, d1, d1, d2, d5, d2]
+** 200 OK **  true
+[* 200 OK *]
+[d3, d3, d4] / [d3, d3, d4]
+** 200 OK **  true
+[* 200 OK *]
+[d3] / [d3]
+[* 200 OK *]
+[d1, d1, d1, d1, d1, d2, d5, d2] / [d1, d1, d1, d1, d1, d2, d5, d2]
+** 200 OK **  true
+[* 200 OK *]
+[d3, d3, d4] / [d3, d3, d4]
+** 200 OK **  true
+[* 200 OK *]
+[d3] / [d3]
+[* 200 OK *]
+[d1, d1, d1, d1, d1, d2, d5, d2] / [d1, d1, d1, d1, d1, d2, d5, d2]
+** 200 OK **  true
+[* 200 OK *]
+[d3, d3, d4] / [d3, d3, d4]
+** 200 OK **  true
+[* 200 OK *]
+[d3] / [d3]
+[* 200 OK *]
+[d1, d1, d1, d1, d1, d2, d5, d2] / [d1, d1, d1, d1, d1, d2, d5, d2]
+** 200 OK **  true
+[* 200 OK *]
+[d3, d3, d4] / [d3, d3, d4]
+** 200 OK **  true
+[* 200 OK *]
+[d3] / [d3]
+[* 200 OK *]
+[d1, d1, d1, d1, d1, d2, d5, d2] / [d1, d1, d1, d1, d1, d2, d5, d2]
+** 200 OK **  true
+[* 200 OK *]
+[d3, d3, d4] / [d3, d3, d4]
+** 200 OK **  true
+[* 200 OK *]
+[d3] / [d3]
+[* 200 OK *]
+[d1, d1, d1, d1, d1, d2, d5, d2] / [d1, d1, d1, d1, d1, d2, d5, d2]
+** 200 OK **  true
+[* 200 OK *]
+[d3, d3, d4] / [d3, d3, d4]
+** 200 OK **  true
+[* 200 OK *]
+[d3] / [d3]
+[* 200 OK *]
+[d1, d1, d1, d1, d1, d2, d5, d2] / [d1, d1, d1, d1, d1, d2, d5, d2]
+** 200 OK **  true
+[* 200 OK *]
+[d3, d3, d4] / [d3, d3, d4]
+** 200 OK **  true
+[* 200 OK *]
+[d3] / [d3]
+[* 200 OK *]
+[d1, d1, d1, d1, d1, d2, d5, d2] / [d1, d1, d1, d1, d1, d2, d5, d2]
+** 200 OK **  true
+[* 200 OK *]
+[d3, d3, d4] / [d3, d3, d4]
+** 200 OK **  true
+[* 200 OK *]
+[d3] / [d3]
+[* 200 OK *]
+[d1, d1, d1, d1, d1, d2, d5, d2] / [d1, d1, d1, d1, d1, d2, d5, d2]
+** 200 OK **  true
+[* 200 OK *]
+[d3, d3, d4] / [d3, d3, d4]
+** 200 OK **  true
+[* 200 OK *]
+[d3] / [d3]
+[* 200 OK *]
+[d1, d1, d1, d1, d1, d2, d5, d2] / [d1, d1, d1, d1, d1, d2, d5, d2]
+** 200 OK **  true
+[* 200 OK *]
+[d3, d3, d4] / [d3, d3, d4]
+** 200 OK **  true
+[* 200 OK *]
+[d3] / [d3]
+[* 200 OK *]
+[d1, d1, d1, d1, d1, d2, d5, d2] / [d1, d1, d1, d1, d1, d2, d5, d2]
+** 200 OK **  true
+[* 200 OK *]
+[d3, d3, d4] / [d3, d3, d4]
+** 200 OK **  true
+[* 200 OK *]
+[d3] / [d3]
+[* 200 OK *]
+[d5, worm, worm, d5, worm, worm, d2, d1] / [d5, worm, worm, d5, worm, worm, d2, d1]
+** 200 OK **  true
+[* 200 OK *]
+[d2, worm, worm, d5] / [d2, worm, worm, d5]
+** 200 OK **  true
+** 200 OK **  true
+[* 200 OK *]
+[d5, worm, worm, d5, worm, worm, d2, d1] / [d5, worm, worm, d5, worm, worm, d2, d1]
+** 200 OK **  true
+[* 200 OK *]
+[d1, worm, worm, d5] / [d1, worm, worm, d5]
+** 200 OK **  true
+** 200 OK **  true
+** 200 OK **  978 : currentState=[ status=GAME_FINISHED, player=0, rolls=[], keptDices=[] ], pickominos=[], stackTops=[22, 21]
+** 200 OK **  978 : currentState=[ status=GAME_FINISHED, player=0, rolls=[], keptDices=[] ], pickominos=[], stackTops=[22, 21]
+** 200 OK **  ** 201 Created **  979,136
+** 401 Unauthorized **  ** 200 OK **  ** 201 Created **  980,154
+** 201 Created **  981,276
+** 200 OK **  981 : currentState=[ status=ROLL_DICE, player=0, rolls=[], keptDices=[] ], pickominos=[21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36], stackTops=[0, 0]
+** 200 OK **  ** 201 Created **  982,280
+[* 200 OK *]
+[d5, worm, worm, worm, worm, worm, worm, d1] / [d5, worm, worm, worm, worm, worm, worm, d1]
+** 200 OK **  true
+** 200 OK **  true
+** 200 OK **  ** 201 Created **  983,156
+[* 200 OK *]
+[d5, worm, worm, d5, worm, worm, worm, d1] / [d5, worm, worm, d5, worm, worm, worm, d1]
+** 200 OK **  true
+** 200 OK **  true
+** 200 OK **  983 : currentState=[ status=ROLL_DICE, player=1, rolls=[], keptDices=[] ], pickominos=[21, 22, 23, 24, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36], stackTops=[25, 0]
+** 200 OK **  ** 201 Created **  984,197
+** 200 OK **  ** 201 Created **  985,256
+** 401 Unauthorized **  ** 200 OK **  ** 201 Created **  986,149
+[* 200 OK *]
+[d5, worm, worm, d5, worm, worm, worm, d1] / [d5, worm, worm, d5, worm, worm, worm, d1]
+** 200 OK **  true
+** 200 OK **  true
+[* 200 OK *]
+[d1, d1, d1, d1, d1, d2, d5, d2] / [d1, d1, d1, d1, d1, d2, d5, d2]
+** 200 OK **  true
+[* 200 OK *]
+[d3, d3, d4] / [d3, d3, d4]
+** 200 OK **  true
+[* 200 OK *]
+[d3] / [d3]
+[* 200 OK *]
+[d5, d5, d1, d4, d5, d2, d5, d2] / [d5, d5, d1, d4, d5, d2, d5, d2]
+** 200 OK **  true
+[* 200 OK *]
+[d3, d3, d4, worm] / [d3, d3, d4, worm]
+** 200 OK **  true
+[* 200 OK *]
+[d3, d1, d1] / [d3, d1, d1]
+** 200 OK **  true
+** 200 OK **  true
+[* 200 OK *]
+[d1, d1, d1, d1, d1, d2, d5, d2] / [d1, d1, d1, d1, d1, d2, d5, d2]
+** 200 OK **  true
+[* 200 OK *]
+[d3, d3, d4] / [d3, d3, d4]
+** 200 OK **  true
+[* 200 OK *]
+[d3] / [d3]
+[* 200 OK *]
+[d1, d1, d1, d1, d1, d2, d5, d2] / [d1, d1, d1, d1, d1, d2, d5, d2]
+** 200 OK **  true
+[* 200 OK *]
+[d3, d3, d4] / [d3, d3, d4]
+** 200 OK **  true
+[* 200 OK *]
+[d3] / [d3]
+** 200 OK **  986 : currentState=[ status=ROLL_DICE, player=1, rolls=[], keptDices=[] ], pickominos=[21, 22, 23, 24, 26, 27, 28, 29, 30, 31, 32, 33], stackTops=[25, 0]
+** 200 OK **  986 : currentState=[ status=ROLL_DICE, player=1, rolls=[], keptDices=[] ], pickominos=[21, 22, 23, 24, 26, 27, 28, 29, 30, 31, 32, 33], stackTops=[25, 0]
+** 200 OK **  ** 201 Created **  987,203
+[* 200 OK *]
+[worm, worm, worm, worm, d2, d5, d1, d1] / [worm, worm, worm, worm, d2, d5, d1, d1]
+** 200 OK **  true
+[* 200 OK *]
+[d1, d2, d3, d4] / [d1, d2, d3, d4]
+** 200 OK **  true
+** 200 OK **  true
+[* 200 OK *]
+[worm, worm, worm, worm, d2, d5, d1, d1] / [worm, worm, worm, worm, d2, d5, d1, d1]
+** 200 OK **  true
+[* 200 OK *]
+[d1, d2, d3, d4] / [d1, d2, d3, d4]
+** 200 OK **  true
+** 200 OK **  true
+[* 200 OK *]
+[worm, worm, worm, worm, d2, d5, d1, d1] / [worm, worm, worm, worm, d2, d5, d1, d1]
+** 200 OK **  true
+[* 200 OK *]
+[d1, d2, d3, d4] / [d1, d2, d3, d4]
+** 200 OK **  true
+** 200 OK **  true
+[* 200 OK *]
+[worm, worm, worm, worm, d2, d5, d1, d1] / [worm, worm, worm, worm, d2, d5, d1, d1]
+** 200 OK **  true
+[* 200 OK *]
+[d1, d1, d1, d4] / [d1, d1, d1, d4]
+** 200 OK **  true
+[* 200 OK *]
+[d1] / [d1]
+** 200 OK **  987 : currentState=[ status=ROLL_DICE, player=0, rolls=[], keptDices=[] ], pickominos=[22, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35], stackTops=[21, 0]
+** 200 OK **  ** 201 Created **  988,209
+[* 404 Not Found *]
+** 200 OK **  ** 201 Created **  989,271
+** 404 Not Found **  ** 200 OK **  ** 201 Created **  990,185
+[* 200 OK *]
+[worm, worm, worm, worm, worm, worm, worm, d1] / [worm, worm, worm, worm, worm, worm, worm, d1]
+** 200 OK **  true
+[* 200 OK *]
+[d1] / [d1]
+** 200 OK **  true
+** 200 OK **  true
+[* 200 OK *]
+[d1, d1, d1, d1, d1, d2, d5, d2] / [d1, d1, d1, d1, d1, d2, d5, d2]
+** 200 OK **  true
+[* 200 OK *]
+[d3, d3, d4] / [d3, d3, d4]
+** 200 OK **  true
+[* 200 OK *]
+[d3] / [d3]
+[* 200 OK *]
+[d1, d1, d1, d1, d1, d2, d5, d2] / [d1, d1, d1, d1, d1, d2, d5, d2]
+** 200 OK **  true
+[* 200 OK *]
+[d3, d3, d4] / [d3, d3, d4]
+** 200 OK **  true
+[* 200 OK *]
+[d3] / [d3]
+** 200 OK **  990 : currentState=[ status=ROLL_DICE, player=1, rolls=[], keptDices=[] ], pickominos=[21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 36], stackTops=[0, 0]
+** 200 OK **  ** 201 Created **  991,156
+** 200 OK **  [d3, d4, d3, d3, d4, d2, d5, d1]
+** 200 OK **  ** 201 Created **  992,155
+** 404 Not Found **  ** 200 OK **  ** 201 Created **  993,273
+[* 200 OK *]
+[d5, worm, worm, d5, worm, worm, d2, d1] / [d5, worm, worm, d5, worm, worm, d2, d1]
+** 200 OK **  ** 201 Created **  994,151
+** 405 Method Not Allowed **  ** 200 OK **  ** 201 Created **  995,108
+[* 200 OK *]
+[d5, worm, worm, d5, worm, worm, d2, d1] / [d5, worm, worm, d5, worm, worm, d2, d1]
+** 200 OK **  true
+** 200 OK **  995 : currentState=[ status=ROLL_DICE, player=0, rolls=[], keptDices=[worm, worm, worm, worm] ], pickominos=[21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36], stackTops=[0, 0]
+** 200 OK **  ** 201 Created **  996,256
+** 405 Method Not Allowed **  ** 200 OK **  ** 201 Created **  997,211
+[* 200 OK *]
+[worm, worm, worm, worm, d2, d5, d1, d1] / [worm, worm, worm, worm, d2, d5, d1, d1]
+** 200 OK **  true
+[* 200 OK *]
+[d1, d2, d3, d4] / [d1, d2, d3, d4]
+** 200 OK **  true
+** 200 OK **  true
+[* 200 OK *]
+[worm, worm, worm, worm, d2, d5, d1, d1] / [worm, worm, worm, worm, d2, d5, d1, d1]
+** 200 OK **  true
+[* 200 OK *]
+[d1, d2, d3, d4] / [d1, d2, d3, d4]
+** 200 OK **  true
+** 200 OK **  true
+[* 200 OK *]
+[worm, worm, worm, worm, d2, d5, d1, d1] / [worm, worm, worm, worm, d2, d5, d1, d1]
+** 200 OK **  true
+[* 200 OK *]
+[d1, d2, d3, d4] / [d1, d2, d3, d4]
+** 200 OK **  true
+** 405 Method Not Allowed **  ]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Dekko';
+    src: url('../../../fonts/Dekko/Dekko-Regular.ttf');
+}
+
+.police {
+    -fx-font-family: 'Dekko', sans-serif;
+    -fx-font-size: 18px;
+}
+.police-label {
+    -fx-font-family: 'Dekko';
+    -fx-font-size: 24px;
+}
